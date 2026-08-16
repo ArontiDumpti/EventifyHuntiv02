@@ -11,8 +11,7 @@ class ApiDniService {
     private val client = OkHttpClient()
     private val gson = Gson()
 
-    private val token =
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MTU4NCJ9.6JbqojwDLijYsYClnDq-4g2Sh4sO2iPdlBG5TLS_wzU"
+    private val token = "YOUR_API_TOKEN_HERE" // REMOVED HARDCODED TOKEN FOR SECURITY
     fun buscarDni(
         dni: String,
         callback: (String) -> Unit
