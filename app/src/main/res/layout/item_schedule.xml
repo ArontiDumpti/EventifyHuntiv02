@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/shape_lugar">
+
+        <!-- COLUMNA DE HORA -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_gravity="top|end"
+            android:paddingEnd="12dp"
+            tools:ignore="RtlSymmetry">
+
+            <TextView
+                android:id="@+id/tvItemScheduleHour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:09"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="end">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvItemScheduleAMPM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AM.PM."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:gravity="end">
+            </TextView>
+        </LinearLayout>
+
+        <!-- COLUMNA DE HORA -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/tvItemScheduleTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Futuro del Desarrollo Movil"
+                android:textColor="@color/ColorAccent"
+                android:textSize="17sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvItemScheduleSpeaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maria Becerra"
+                android:textColor="@color/ColorAccent"
+                android:textSize="14sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvItemSchedulePlace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="AuditorioPrincipal"
+                android:textColor="@color/ColorAccent"
+                android:textSize="14sp"
+                android:textStyle="bold">
+            </TextView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

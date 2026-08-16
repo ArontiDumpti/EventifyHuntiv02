@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="56dp"
+    android:viewportWidth="48"
+    android:viewportHeight="56">
+    <!-- Outer Glow/Shadow -->
+    <path
+        android:fillColor="#226837CE"
+        android:pathData="M24,48C34,48 42,40 42,30C42,20 34,12 24,12C14,12 6,20 6,30C6,40 14,48 24,48Z" />
+
+    <!-- Marker Body (Teardrop/Circle) -->
+    <path
+        android:fillColor="#6837CE"
+        android:pathData="M24,0C13.5,0 5,8.5 5,19C5,30.2 24,52 24,52C24,52 43,30.2 43,19C43,8.5 34.5,0 24,0ZM24,28C19,28 15,24 15,19C15,14 19,10 24,10C29,10 33,14 33,19C33,24 29,28 24,28Z" />
+
+    <!-- Star Icon in center -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,14.5L25.8,18.2L29.9,18.8L26.9,21.7L27.6,25.8L24,23.9L20.4,25.8L21.1,21.7L18.1,18.8L22.2,18.2L24,14.5Z" />
+</vector>
